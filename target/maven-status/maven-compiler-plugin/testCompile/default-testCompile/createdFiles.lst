@@ -1,0 +1,4 @@
+com\douglas\pages\HomePage.class
+com\douglas\stepdefs\StepDefs.class
+com\douglas\pages\BasePage.class
+com\douglas\stepdefs\TestRunner.class
