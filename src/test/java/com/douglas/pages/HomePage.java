@@ -18,7 +18,7 @@ public class HomePage {
 
 	private static WebDriver driver;
 	private static BasePage basePage;
-	private static double counts;
+	private static int counts;
 	public static final By SHADOW_DOM_ROOT = By.cssSelector("#usercentrics-root");
 	public static final By CONSENT_ACCEPT = By.cssSelector(".sc-dcJsrY.eIFzaz");
 	public static final By PERFUME_LINK = By
@@ -58,9 +58,9 @@ public class HomePage {
 		String[] items = countOfItems.split("\\(");
 		String item1 = items[1];
 		System.out.println(item1);
-		String finalItem = item1.replace(")", "");
+		String finalItem = item1.replace(")", "").replace(".", "");
 		System.out.println(finalItem);
-		counts = Double.parseDouble(finalItem);
+		counts = Integer.parseInt(finalItem);
 		System.out.println("Count of Items in Perfum Page is: "+ counts);
 	}
 
@@ -90,7 +90,7 @@ public class HomePage {
 					.getText();
 			System.out.println("Product Name is: " + productName);
 		}
-		Assert.assertTrue("Filtered Results are Not Zero", itemSize<counts*1000);
+		Assert.assertTrue("Filtered Results are Not Zero", itemSize<counts);
 	}
 
 	public static void closeTheBrowser() {
