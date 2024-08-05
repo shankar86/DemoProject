@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.douglas.stepdefs.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 116.582 s - in com.douglas.stepdefs.TestRunner
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 86.194 s - in com.douglas.stepdefs.TestRunner

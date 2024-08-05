@@ -31,6 +31,11 @@ public class StepDefs {
 		HomePage.listTheProductsBasedOnFilters(dataTable);
 	}
 	
+	@Then("Validate the Filter Result")
+	public void validate_the_filter_result() {
+		HomePage.validateTheFilterResult();
+	}
+	
 	@Then("Close the browser")
 	public void close_the_browser() {
 		HomePage.closeTheBrowser();

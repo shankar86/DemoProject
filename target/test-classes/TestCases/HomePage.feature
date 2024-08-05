@@ -9,6 +9,7 @@ Feature: Douglas Feature Testing
     And List the products based on filters
     | Highlights	 | Marke	  |	Produktart	 | Geschenk für	  | Für Wen		|
     | <Highlights> | <Marke>	|	<Produktart> | <Geschenk für> |	<Für Wen>	|
+    And Validate the Filter Result
     And Close the browser
     
     Examples:
