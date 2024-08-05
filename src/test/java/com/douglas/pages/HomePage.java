@@ -8,6 +8,7 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Wait;
 
@@ -27,7 +28,9 @@ public class HomePage {
 
 	public static void navigateToHomeScreen(String url) {
 		if (FrameworkProperties.SELENIUM_BROWSER.equals("chrome")) {
-			driver = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-search-engine-choice-screen");
+		    driver = new ChromeDriver(options);
 			basePage = new BasePage(driver);
 		} else if (FrameworkProperties.SELENIUM_BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
