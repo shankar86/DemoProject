@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/TestCases",
 		glue="com.douglas.stepdefs",
-		plugin= {"pretty","html:target/CucumberTestReport.html","json:target/cucumber-reports/CucumberTestReport.json"})
+		tags="@test",
+		plugin= {"pretty","html:target/CucumberTestReport.html","json:target/cucumber-reports/CucumberTestReport.json", "rerun:rerun.txt"})
 
 public class TestRunner {
 

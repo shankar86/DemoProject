@@ -1,4 +1,9 @@
+E:\DemoProjects\DouglasProject\src\test\java\com\douglas\stepdefs\BaseStep.java
 E:\DemoProjects\DouglasProject\src\test\java\com\douglas\pages\BasePage.java
 E:\DemoProjects\DouglasProject\src\test\java\com\douglas\pages\HomePage.java
+E:\DemoProjects\DouglasProject\src\test\java\com\douglas\stepdefs\TestContext.java
 E:\DemoProjects\DouglasProject\src\test\java\com\douglas\stepdefs\TestRunner.java
+E:\DemoProjects\DouglasProject\src\test\java\com\douglas\selenium\action\SeleniumActions.java
+E:\DemoProjects\DouglasProject\src\test\java\com\douglas\webelements\HomeWebElement.java
 E:\DemoProjects\DouglasProject\src\test\java\com\douglas\stepdefs\StepDefs.java
+E:\DemoProjects\DouglasProject\src\test\java\com\douglas\stepdefs\RerunFailedTest.java
