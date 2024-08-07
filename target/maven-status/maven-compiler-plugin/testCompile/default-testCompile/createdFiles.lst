@@ -3,8 +3,8 @@ com\douglas\stepdefs\TestRunner.class
 com\douglas\selenium\action\SeleniumActions.class
 com\douglas\stepdefs\BaseStep.class
 com\douglas\stepdefs\TestContext.class
-com\douglas\stepdefs\RerunFailedTest.class
 com\douglas\stepdefs\TestContext$1.class
+com\douglas\stepdefs\TestRunnerRerunFailed.class
 com\douglas\webelements\HomeWebElement.class
 com\douglas\stepdefs\StepDefs.class
 com\douglas\pages\BasePage.class

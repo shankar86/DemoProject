@@ -6,11 +6,11 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "rerun.txt",
+    features = "@rerun.txt",
     glue = "com.douglas.stepdefs",
     plugin = {"pretty", "json:target/cucumber-reports/Cucumber-rerun.json", "html:target/rerun.html"}
 )
 
-public class RerunFailedTest {
+public class TestRunnerRerunFailed {
 
 }

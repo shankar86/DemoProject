@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.douglas.stepdefs.TestRunner" time="41.178" tests="2" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.douglas.stepdefs.TestRunnerRerunFailed" time="18.714" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,32 +59,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="List the products based on filters #1" classname="Douglas Feature Testing" time="20.135">
-    <error message="Expected condition failed: waiting for visibility of element located by By.cssSelector: .headline-bold.product-overview__headline (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\mahal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56630/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 93a0e23accf4070003b8bfddd1a67fc4" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+  <testcase name="List the products based on filters #1" classname="Douglas Feature Testing" time="18.696">
+    <error message="Expected condition failed: waiting for visibility of element located by By.cssSelector: .headline-bold.product-overview__headline (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\mahal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56937/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1ed3788f1f7235a4a25686c984139959" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for visibility of element located by By.cssSelector: .headline-bold.product-overview__headline (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\mahal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56630/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 93a0e23accf4070003b8bfddd1a67fc4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\mahal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56937/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ed3788f1f7235a4a25686c984139959
 </error>
     <system-out><![CDATA[
 @test
 Scenario Outline: List the products based on filters &amp#27;[90m# src/test/resources/TestCases/HomePage.feature:16&amp#27;[0m
-2024-08-08 01:41:59 INFO  BaseStep:14 - -------------NEW SCENARIO STARTED-----------------------
-2024-08-08 01:41:59 INFO  BaseStep:15 - SCENARIO NAME : List the products based on filters
-******Loading Properties file********
-****** Configured Properties ********
-		Property: project.basedir, value: 'E:\DemoProjects\DouglasProject'
-		Property: project.build.directory, value: 'E:\DemoProjects\DouglasProject\target'
-		Property: baseUrl, value: 'https://www.douglas.de/de'
-		Property: maven.compiler.target, value: '17'
-		Property: project.groupId, value: 'com.douglas'
-		Property: maven.compiler.source, value: '17'
-		Property: project.build.sourceEncoding, value: 'UTF-8'
-		Property: project.artifactId, value: 'DouglasProject'
-		Property: browserName, value: 'chrome'
-		Property: project.version, value: '0.0.1-SNAPSHOT'
+2024-08-08 01:42:39 INFO  BaseStep:14 - -------------NEW SCENARIO STARTED-----------------------
+2024-08-08 01:42:39 INFO  BaseStep:15 - SCENARIO NAME : List the products based on filters
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mNavigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.douglas.de/de"&amp#27;[0m      &amp#27;[90m# com.douglas.stepdefs.StepDefs.navigate_to(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mHandle the cookie consent&amp#27;[0m                     &amp#27;[90m# com.douglas.stepdefs.StepDefs.handle_the_cookie_consent()&amp#27;[0m
   &amp#27;[31mThen &amp#27;[0m&amp#27;[31mClick on &amp#27;[0m&amp#27;[31m&amp#27;[1m"PARFUM"&amp#27;[0m                             &amp#27;[90m# com.douglas.stepdefs.StepDefs.click_on(java.lang.String)&amp#27;[0m
@@ -92,8 +80,8 @@ Scenario Outline: List the products based on filters &amp#27;[90m# src/test/reso
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\mahal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56630/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 93a0e23accf4070003b8bfddd1a67fc4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\mahal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56937/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ed3788f1f7235a4a25686c984139959
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.douglas.selenium.action.SeleniumActions.verifyTextByLocator(SeleniumActions.java:99)
@@ -107,5 +95,4 @@ Session ID: 93a0e23accf4070003b8bfddd1a67fc4
   &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mValidate the Filter Result&amp#27;[0m                     &amp#27;[90m# com.douglas.stepdefs.StepDefs.validate_the_filter_result()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="List the products based on filters #2" classname="Douglas Feature Testing" time="20.111"/>
 </testsuite>
